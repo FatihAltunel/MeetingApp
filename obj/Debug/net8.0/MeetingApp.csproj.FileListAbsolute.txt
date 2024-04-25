@@ -26,3 +26,5 @@ C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\Me
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.sourcelink.json
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\bin\Debug\net8.0\libman.json
+C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\bin\Debug\net8.0\MeetingApp.staticwebassets.runtime.json
