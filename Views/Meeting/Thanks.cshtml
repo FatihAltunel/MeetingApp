@@ -1,0 +1,17 @@
+@model UserInfo
+
+@{
+    ViewBag.Title="Participatinh Status";
+}
+
+
+@if(Model.ParticipateStatus==true){
+    <main class="text-center">
+        <h1 class="h4">Meeting Room</h1>
+        <p>There are @ViewBag.UserCount participant with you</p>
+        <a asp-controller="Meeting" asp-action="List" class="btn btn-sm btn-outline-primary">List all participant</a>
+    </main>
+}else{
+    <p>@Model.Name, we're sorry for you're not participate</p>
+    <a asp-controller="Meeting" asp-action="List" class="btn btn-sm btn-outline-primary">List all participant</a>
+}

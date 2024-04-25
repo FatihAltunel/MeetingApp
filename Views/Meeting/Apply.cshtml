@@ -1,27 +1,28 @@
+@model UserInfo
 @{
     ViewBag.Title="Meeting Participation Form";
 }
 
 <h1 class="h4 text-center">Meeting Participation Form</h1>
-<form action="">
+<form method="post" action="/meeting/apply">
     <div class="mb-3">
-        <label for="Name" class="form-label">Name</label>
-        <input type="text" name="Name" id="Name" class="form-control"></input>
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" class="form-control"></input>
     </div>
     <div class="mb-3">
-        <label for="Phone" class="form-label">Phone Number</label>
-        <input type="text" name="Phone" id="Phone" class="form-control"></input>
+        <label asp-for="Phone" class="form-label">Phone Number</label>
+        <input asp-for="Phone" class="form-control"></input>
     </div>
     <div class="mb-3">
-        <label for="Email" class="form-label">Email</label>
-        <input type="email" name="Email" id="Email" class="form-control"></input>
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control"></input>
     </div>
     <div class="mb-3">
-        <label for="ParticipateStatus" class="form-label">Will You Participate</label>
-        <select name="ParticipateStatus" id="ParticipateStatus" class="form-select">
+        <label asp-for="ParticipateStatus" class="form-label">Will You Participate</label>
+        <select asp-for="ParticipateStatus" class="form-select">
             <option value="true">Yes, I Will</option>
             <option value="false">No, I Won't</option>
         </select>
     </div>
+    <Button class="btn btn-primary" type ="submit">Submit</Button>
 </form>
-<Button class="btn btn-primary" type ="submit">Submit</Button>
