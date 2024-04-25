@@ -23,3 +23,6 @@ C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\Me
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.pdb
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.genruntimeconfig.cache
 C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\ref\MeetingApp.dll
+C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.sourcelink.json
+C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cache
+C:\Users\fatih\Documents\ProgrammingApplications\Web Applications\ASP.NetCore\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cs
