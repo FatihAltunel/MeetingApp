@@ -17,8 +17,10 @@ namespace MeetingApp.Controllers
             ViewBag.UserCount = Repository.Users.Where(u => u.ParticipateStatus==true).Count();
             return View("Thanks", model);  
         }  
+        
+        [HttpGet]
         public IActionResult List(){
-            return View();  
+            return View(Repository.Users);  
         }  
     }
 }
