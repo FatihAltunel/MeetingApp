@@ -4,7 +4,8 @@
 }
 
 <h1 class="h4 text-center">Meeting Participation Form</h1>
-<form method="post" action="/meeting/apply">
+<form method="post" action="/meeting/apply" >
+    <div asp-validation-summary="All"></div>
     <div class="mb-3">
         <label asp-for="Name" class="form-label">Name</label>
         <input asp-for="Name" class="form-control"></input>
@@ -20,6 +21,7 @@
     <div class="mb-3">
         <label asp-for="ParticipateStatus" class="form-label">Will You Participate</label>
         <select asp-for="ParticipateStatus" class="form-select">
+            <option value="null">Choose an option</option>
             <option value="true">Yes, I Will</option>
             <option value="false">No, I Won't</option>
         </select>

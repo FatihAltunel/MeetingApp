@@ -13,9 +13,13 @@ namespace MeetingApp.Controllers
         }  
         [HttpPost]
         public IActionResult Apply(UserInfo model){
+            if (ModelState.IsValid){
             Repository.AddUser(model);
             ViewBag.UserCount = Repository.Users.Where(u => u.ParticipateStatus==true).Count();
             return View("Thanks", model);  
+            }else{
+                return View(model);
+            }
         }  
         
         [HttpGet]
