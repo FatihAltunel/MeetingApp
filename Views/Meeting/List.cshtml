@@ -24,7 +24,7 @@
             }else{
             <td class="table-danger">Not Participating</td>
             }
-            <td><a href="#" class="btn btn-sm btn-primary">Details</a></td>
+            <td><a asp-controller="Meeting" asp-action="Details" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Details</a></td>
         </tr>
         }
     </tbody>

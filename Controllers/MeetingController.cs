@@ -22,5 +22,10 @@ namespace MeetingApp.Controllers
         public IActionResult List(){
             return View(Repository.Users);  
         }  
+        [HttpGet]
+        public IActionResult Details(int id){
+            var user = Repository.Users.FirstOrDefault(user => user.Id==id);
+            return View(user);
+        }
     }
 }
